@@ -18,6 +18,46 @@ Visit **[torly.ai/download](https://torly.ai/download)** for the latest release,
 | macOS | Intel | [TorlyAI-x64.dmg](https://github.com/torlyai/desktop/releases/latest) |
 | Windows | x64 | [TorlyAI-Setup.exe](https://github.com/torlyai/desktop/releases/latest) |
 
+### Or install via command line
+
+**macOS — Homebrew:**
+
+```bash
+brew tap torlyai/desktop && brew install --cask torlyai
+```
+
+<details>
+<summary>Don't have Homebrew? Install it first</summary>
+
+Open **Terminal** (press `Cmd + Space`, type **Terminal**, press Enter) and paste:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+It will ask for your Mac password (you won't see characters as you type — that's normal). Wait until it says "Installation successful!", then run the install command above.
+
+**Apple Silicon Macs (M1/M2/M3/M4):** Homebrew may show two extra commands to run after installation. Copy and paste them exactly as shown.
+
+</details>
+
+> Update: `brew upgrade --cask torlyai` · Uninstall: `brew uninstall --cask torlyai`
+
+**Windows — Winget:**
+
+```powershell
+winget install TorlyAI.Desktop
+```
+
+<details>
+<summary>Windows 10: Winget not recognised?</summary>
+
+Winget is built into Windows 11. On Windows 10, install [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1) from the Microsoft Store first. Open **PowerShell** (press `Win` key, type **PowerShell**, press Enter) to run the command.
+
+</details>
+
+> Update: `winget upgrade TorlyAI.Desktop` · Uninstall: `winget uninstall TorlyAI.Desktop`
+
 ---
 
 ## Installation — macOS

@@ -16,7 +16,8 @@ Visit **[torly.ai/download](https://torly.ai/download)** for the latest release,
 |----------|-------------|----------|
 | macOS | Apple Silicon (M1/M2/M3/M4) | [TorlyAI-arm64.dmg](https://github.com/torlyai/desktop/releases/latest) |
 | macOS | Intel | [TorlyAI-x64.dmg](https://github.com/torlyai/desktop/releases/latest) |
-| Windows | x64 | [TorlyAI-Setup.exe](https://github.com/torlyai/desktop/releases/latest) |
+| Windows | x64 | [TorlyAI-Setup-x64.exe](https://github.com/torlyai/desktop/releases/latest) |
+| Windows | ARM64 | [TorlyAI-Setup-arm64.exe](https://github.com/torlyai/desktop/releases/latest) |
 
 ### Or install via command line
 
@@ -111,7 +112,11 @@ If macOS shows: _"TorlyAI can't be opened because it is from an unidentified dev
 
 ### Step 1: Download the installer
 
-Click the **TorlyAI-Setup.exe** download link in the table above.
+Click the download link in the table above for your architecture:
+- **Most Windows PCs:** Download **TorlyAI-Setup-x64.exe**
+- **Windows ARM devices** (Surface Pro X, Snapdragon laptops): Download **TorlyAI-Setup-arm64.exe**
+
+> **Not sure?** Press `Win + I` → **System** → **About** → check **System type**. If it says "x64-based processor", use x64. If it says "ARM-based processor", use ARM64.
 
 Your browser may show a warning — this is normal for new software:
 - **Chrome:** Click the `^` arrow next to the download → **Keep**
@@ -121,7 +126,7 @@ Your browser may show a warning — this is normal for new software:
 ### Step 2: Run the installer
 
 1. Open your **Downloads** folder (press `Win + E`, then click **Downloads** in the sidebar).
-2. **Double-click** `TorlyAI-Setup.exe`.
+2. **Double-click** the installer file you downloaded.
 
 3. **Windows SmartScreen warning** — If you see _"Windows protected your PC"_:
    - Click **More info** (the small blue text link)
@@ -278,7 +283,7 @@ You can also check manually: **Settings** → **About** → **Check for updates*
 | | Minimum | Recommended |
 |---|---------|-------------|
 | **Windows version** | Windows 10 (64-bit, build 1809+) | Windows 11 |
-| **Architecture** | x64 | x64 |
+| **Architecture** | x64 or ARM64 | x64 or ARM64 |
 | **RAM** | 4 GB | 8 GB |
 | **Disk space** | 500 MB | 1 GB |
 
